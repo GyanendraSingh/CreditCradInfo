@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C5F42C152ED09400DF9582 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C5F42B152ED09400DF9582 /* UIKit.framework */; };
+		84C5F42E152ED09400DF9582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C5F42D152ED09400DF9582 /* Foundation.framework */; };
+		84C5F430152ED09400DF9582 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C5F42F152ED09400DF9582 /* CoreGraphics.framework */; };
+		84C5F436152ED09400DF9582 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C5F434152ED09400DF9582 /* InfoPlist.strings */; };
+		84C5F438152ED09400DF9582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5F437152ED09400DF9582 /* main.m */; };
+		84C5F43C152ED09400DF9582 /* CreditCradInfoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C5F43B152ED09400DF9582 /* CreditCradInfoAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C5F427152ED09400DF9582 /* CreditCradInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCradInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C5F42B152ED09400DF9582 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C5F42D152ED09400DF9582 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C5F42F152ED09400DF9582 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C5F433152ED09400DF9582 /* CreditCradInfo-Info.plist */ = {isa = PBXFileReference; path = "CreditCradInfo-Info.plist"; sourceTree = "<group>"; };
+		84C5F435152ED09400DF9582 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C5F437152ED09400DF9582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C5F439152ED09400DF9582 /* CreditCradInfo-Prefix.pch */ = {isa = PBXFileReference; path = "CreditCradInfo-Prefix.pch"; sourceTree = "<group>"; };
+		84C5F43A152ED09400DF9582 /* CreditCradInfoAppDelegate.h */ = {isa = PBXFileReference; path = CreditCradInfoAppDelegate.h; sourceTree = "<group>"; };
+		84C5F43B152ED09400DF9582 /* CreditCradInfoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditCradInfoAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C5F424152ED09400DF9582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C5F42C152ED09400DF9582 /* UIKit.framework in Frameworks */,
+				84C5F42E152ED09400DF9582 /* Foundation.framework in Frameworks */,
+				84C5F430152ED09400DF9582 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C5F41C152ED09400DF9582 = {
+			isa = PBXGroup;
+			children = (
+				84C5F431152ED09400DF9582 /* CreditCradInfo */,
+				84C5F42A152ED09400DF9582 /* Frameworks */,
+				84C5F428152ED09400DF9582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C5F428152ED09400DF9582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C5F427152ED09400DF9582 /* CreditCradInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C5F42A152ED09400DF9582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C5F42B152ED09400DF9582 /* UIKit.framework */,
+				84C5F42D152ED09400DF9582 /* Foundation.framework */,
+				84C5F42F152ED09400DF9582 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C5F431152ED09400DF9582 /* CreditCradInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84C5F43A152ED09400DF9582 /* CreditCradInfoAppDelegate.h */,
+				84C5F43B152ED09400DF9582 /* CreditCradInfoAppDelegate.m */,
+				84C5F432152ED09400DF9582 /* Supporting Files */,
+			);
+			path = CreditCradInfo;
+			sourceTree = "<group>";
+		};
+		84C5F432152ED09400DF9582 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C5F433152ED09400DF9582 /* CreditCradInfo-Info.plist */,
+				84C5F434152ED09400DF9582 /* InfoPlist.strings */,
+				84C5F437152ED09400DF9582 /* main.m */,
+				84C5F439152ED09400DF9582 /* CreditCradInfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C5F426152ED09400DF9582 /* CreditCradInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C5F43F152ED09400DF9582 /* Build configuration list for PBXNativeTarget "CreditCradInfo" */;
+			buildPhases = (
+				84C5F423152ED09400DF9582 /* Sources */,
+				84C5F424152ED09400DF9582 /* Frameworks */,
+				84C5F425152ED09400DF9582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCradInfo;
+			productName = CreditCradInfo;
+			productReference = 84C5F427152ED09400DF9582 /* CreditCradInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C5F41E152ED09400DF9582 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C5F421152ED09400DF9582 /* Build configuration list for PBXProject "CreditCradInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C5F41C152ED09400DF9582;
+			productRefGroup = 84C5F428152ED09400DF9582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C5F426152ED09400DF9582 /* CreditCradInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C5F425152ED09400DF9582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C5F436152ED09400DF9582 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C5F423152ED09400DF9582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C5F438152ED09400DF9582 /* main.m in Sources */,
+				84C5F43C152ED09400DF9582 /* CreditCradInfoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C5F434152ED09400DF9582 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C5F435152ED09400DF9582 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C5F43D152ED09400DF9582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C5F43E152ED09400DF9582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C5F440152ED09400DF9582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreditCradInfo/CreditCradInfo-Prefix.pch";
+				INFOPLIST_FILE = "CreditCradInfo/CreditCradInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C5F441152ED09400DF9582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CreditCradInfo/CreditCradInfo-Prefix.pch";
+				INFOPLIST_FILE = "CreditCradInfo/CreditCradInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C5F421152ED09400DF9582 /* Build configuration list for PBXProject "CreditCradInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C5F43D152ED09400DF9582 /* Debug */,
+				84C5F43E152ED09400DF9582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C5F43F152ED09400DF9582 /* Build configuration list for PBXNativeTarget "CreditCradInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C5F440152ED09400DF9582 /* Debug */,
+				84C5F441152ED09400DF9582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C5F41E152ED09400DF9582 /* Project object */;
+}
